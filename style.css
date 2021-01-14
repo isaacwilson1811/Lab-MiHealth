@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Work Sans', sans-serif;
+}
+
+body {
+  font-size: 100%;
+  background-image: url(./img/bg.png);
+  background-repeat: repeat;
+}
+
+.page-wrap {
+  width:95%;
+  margin: 0 auto;
+  background-color: #e0e0e0;
+  color: #202020;
+}
+
+/* HEADER SECTION */
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: #ffffff;
+}
+
+.logo-container {
+  width: 50%;
+  padding-left: 80px;
+}
+
+.logo-text {
+  font-size: 2.2em;
+  font-weight: 800;
+  padding-right: 10px
+}
+
+.red {color:#cd2222;}
+
+.green {color:#8cc72a;}
+
+.navigation {
+  width: 50%;
+  padding-right: 80px;
+}
+
+.navigation ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navigation li {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.navigation a:hover {
+  text-decoration: underline;
+  color: #404040;
+}
+
+/* BODY SECTION */
+
+.body-section {
+  padding: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.page-card{
+  width: 230px;
+  height: 340px;
+  margin-right: 10px;
+  background-size: cover;
+  margin-bottom:20px;
+}
+
+.page-card:nth-of-type(2){
+  background-image: url(img/card1.jpg);
+}
+
+.page-card:nth-of-type(3){
+  background-image: url(img/card2.jpg);
+}
+
+.page-card:nth-of-type(4){
+  background-image: url(img/card3.jpg);
+}
+
+.content-title {
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.content-text {
+  font-weight: 500;
+  padding: 16px 0;
+}
+
+.browse-menu a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.browse-menu a:hover {
+  color: #000000;
+  text-decoration: underline;
+  color: #404040;
+}
+
+h4 {
+  background-color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: right;
+  width:80px;
+  height:30px;
+  position: relative;
+  top:261px;
+  left:130px;
+  padding-top:10px;
+  padding-right:10px;
+  padding-left:10px;
+}
+
+h5 {
+  background-color: #8cc72a;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: right;
+  width:115px;
+  height:30px;
+  position: relative;
+  top:261px;
+  left:105px;
+  padding-top:10px;
+  padding-right:10px;
+}
